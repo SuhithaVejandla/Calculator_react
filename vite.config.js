@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/REACT-CALCULATOR/',
+    base: '/Calculator_react/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
